@@ -22,12 +22,28 @@
         h1 {
             color: #007BFF;
         }
+        p strong {
+            color: #007BFF;
+        }
         a {
             color: #007BFF;
             text-decoration: none;
         }
         a:hover {
             text-decoration: underline;
+        }
+                /* 图片样式 */
+        .image-container img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+              /* 图片悬停效果 */
+        .image-container img:hover {
+            transform: scale(1.15);
         }
     </style>
 </head>
@@ -47,25 +63,31 @@
             <li>车房情况：无</li>
         </ul>
         <p><strong>自我介绍：</strong></p>
-        <p>本科毕业，现互联网公司从事程序员工作。 性格 INFP，不善社交，典型的理工男。不吸烟，不喝酒，不赌博，无其他不良嗜好，平时工作两点一线。现居重庆江北区，无车房，希望等房价在合理的区间再买（租售比 &lt; 300, 售租比 &gt; 3%）。自我感觉精神世界丰富，没有把情感问题放在心上，一直搁置，现在年龄已大，不想在最好的时间错过生命中最重要的她。</p>
+        <p>本科毕业，在互联网公司从事程序员工作。 性格 INFP，不善社交，典型的理工男。不吸烟，不喝酒，不赌博，无其他不良嗜好，平时工作两点一线。现居重庆江北区，无车房，希望等房价在合理的区间再买（租售比 &lt; 300, 售租比 &gt; 3%）。由于个人没有把情感问题放在心上，一直搁置，父母操心，现在年龄已大，不想在最好的时间错过生命中最重要的她。</p>
         <p><strong>兴趣爱好：</strong></p>
         <p>游戏，看书，电影，徒步，爬山</p>
         <p><strong>对另一半的期望：</strong></p>
         <p>善良，正直，三观合得来，会独立思考，有阅读习惯，不喜欢刷短视频，相处合拍，成为彼此最信任的人。</p>
         <p><strong>感情观：</strong></p>
-        <p>不接受闪婚，人生三个重大决定：在哪里生活，和谁在一起，从事什么职业。和谁在一起，是一个负责且重要的决定，在重大的问题上需要多花点时间。我期待能遇到有缘人，与她共度一生。由于工作环境限制，我接触到的未婚女性较少，因此希望通过相亲找到合适的伴侣。</p>
+        <p>不接受闪婚，人生三个重大决定：在哪里生活，和谁在一起，从事什么职业。“和谁在一起” 是一个负责且重要的决定，在重大的问题上需要多花点时间。我期待能遇到有缘人，与她共度一生。</p>
+
+            <!-- 底部图片容器 -->
+        <div class="image-container">
+
+            <p> 
+            <img src="http://static.magic-source.com/WechatIMG166.jpg" alt="">
+
+            <img src="http://static.magic-source.com/WechatIMG167.jpg" alt="">
+            </p>
+
+        <p> 
+            <img src="http://static.magic-source.com/WechatIMG169.jpg" alt="">
+            <img src="http://static.magic-source.com/WechatIMG168.jpg" alt="">
+
+        </p>
+      </div>
   </div>
 
-    
-    <div class="container">
-        <h1>欢迎来到我的个人简介</h1>
-        <p>你好！我是 [你的名字]，一名 [你的职业/身份]。</p>
-        <p>这是我的 GitHub Pages 个人简介网页。</p>
-        <p>你可以通过以下方式联系我：</p>
-        <ul>
-            <li>邮箱：<a href="mailto:your-email@example.com">your-email@example.com</a></li>
-            <li>GitHub：<a href="https://github.com/your-username">your-username</a></li>
-        </ul>
-    </div>
+
 </body>
 </html>
